@@ -26,7 +26,7 @@ export const LoginRequired: React.FC<LoginRequiredProps> = ({
 
   const handleSignup = () => {
     if (onSignup) onSignup();
-    else window.location.href = "/signup";
+    else window.location.href = "/register";
   };
 
   return (
